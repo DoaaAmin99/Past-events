@@ -51,6 +51,9 @@
   /* end of side bar */
 
   /* top nav */
+  .top-navbar{
+    background-color: #eee;
+  }
   .logo{
     font-size: 20px;
     color: #999999;
@@ -137,19 +140,19 @@ padding-top: 2.9rem;
 }
 
 .add-event-btn{
-  width: 33%;
-  margin-left: 63%;
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
   border-radius: 3px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 0px;
-  padding-right: 0px;
-  font-size: 27px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 36px;
   position: relative;
   background-color: #ffffff;
   border: none;
   cursor: pointer;
   color: #2CA8FF ;
+  text-align: center;
 }
 
 .add-event-btn:hover{
@@ -172,7 +175,7 @@ padding-top: 2.9rem;
 
 .card{
   margin-bottom: 15px;
-  margin-top:15px;
+  margin-top:40px;
   box-shadow: 1px 2px 5px #999;
   transition: all .4s;
 }
@@ -220,16 +223,11 @@ padding-left: 0.1rem;
 padding-bottom: 0.5rem;
 }
 
-.card-stat .card-icon{
-  padding: 15px;
-  margin-top: -10px;
+.card-stat .card-icon .events{
+  margin-top: -25px;
   box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(255, 152, 0, 0.4);
-  height: 100px;
+  height: 300px;
   border-radius: 3px;
 }
-.card .card-header-success .card-icon{
-  background: linear-gradient(60deg, #66bb6a, #43a047);
-}
-.card .card-header-warning .card-icon{
-  background: linear-gradient(60deg, #ffa726, #fb8c00);
-}
+
+
